@@ -14,7 +14,7 @@ S.keys()
 S.values()
 chars = ["A", "B", "C"]
 values = ["a", "b", "c"]
-list(zip(chars,values))
-set(zip(chars,values))
+print(list(zip(chars,values)))
+print(set(zip(chars,values)))
 
-print {k:v for (k,v) in [(x,x**2) for x in range(100)]}
+print ({k:v for (k,v) in [(x,x**2) for x in range(100)]})

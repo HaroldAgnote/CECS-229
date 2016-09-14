@@ -14,8 +14,8 @@ print(A)
 
 print("\n3")
 names = ['Larry','Curly','Moe']
-id2salary = {0:1000.0, 3:990, 1:1200.50}
+id2salary = {0:1000.0, 2:990, 1:1200.50}
 
-B = {names[k]: id2salary.get(k) for k in id2salary.keys()}
+B = {names[k]:id2salary.get(k) for k in id2salary.keys()}
 
 print(B)

@@ -38,5 +38,3 @@ s = "There is no spoon."
 for i in range(len(s)):
         if s[i] == 'n':
             break
-
-def quadtratic(a,b,c):

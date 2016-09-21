@@ -88,7 +88,7 @@ def getbrowser():
 def create_temp(suffix='', prefix='tmp', dir=None):
     _f, path = tempfile.mkstemp(suffix, prefix, dir)
     os.close(_f)
-    remove_at_exit(path)
+    # remove_at_exit(path)
     return path
 
 # Register a file to be removed at exit

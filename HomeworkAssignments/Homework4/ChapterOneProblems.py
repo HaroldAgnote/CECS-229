@@ -1,3 +1,4 @@
+#Chapter One Problems
 #1.7.1
 print("#1.7.1\n")
 def my_filter(L, num):
@@ -25,13 +26,11 @@ print(myLists(L))
 print("\n#1.7.3\n")
 
 def my_function_composition(f, g):
-	keys = list(f.keys()).sort()
-	values = list(g.values()).sort()
-
-	C = list({k:v for k in keys for v in values})
-
-	return C
-
+	keys = list(x for x in f.keys())
+	values = list(x for x in g.values())
+	keys.sort()
+	values.sort()
+	return {k: v for (k, v) in list(zip(keys, values))}
 
 f = {0:'a', 1:'b'}
 g = {'a': 'apple', 'b': 'banana'}
@@ -48,8 +47,10 @@ def mySum(L):
     return current
 
 L = [1, 2, 3, 4, 5]
-print(mySum(L))
-
+print("List L is " + str(L))
+print("The Sum of List L: " + str(mySum(L)))
+E = []
+print("The Sum of the numbers in an Empty Set: " + str(mySum(E)))
 
 #1.7.5
 print("\n#1.7.5\n")
@@ -58,20 +59,23 @@ def myProduct(L):
     for x in L:
         current *= x
     return current
-
-print(myProduct(L))
+print("List L is " + str(L))
+print("The Product of List L: " + str(myProduct(L)))
+print("The Product of the numbers in an Empty Set: " + str(myProduct(E)))
 
 #1.7.6
 print("\n#1.7.6\n")
 def myMin(L):
-    current = L[0]
+    current = 0
     for x in L:
         if x < current:
             current = x
     return current
 
 L = [44, 234, 5435, 2234, 554, 2342, 1, 345, 13495]
-print(myMin(L))
+print("List L is " + str(L))
+print("The Minimum of this List is: " + str(myMin(L)))
+print("The Minimum of the numbers in an Empty Set is: " + str(myMin(E)))
 
 #1.7.7
 print("\n#1.7.7\n")
@@ -82,17 +86,20 @@ def myConcat(L):
     return current
 
 T = ['Hello',',','my',' name ', ' is ', ' John.']
-print(myConcat(T))
+print("List T contains: " + str(T))
+print("These elements concatenated together form: " + str(myConcat(T)))
+print("The concatenation of an empty list of strings: " + str(myConcat(E)))
 
 #1.7.8
 print("\n#1.7.8\n")
 def myUnion(L):
     current = set()
     for x in L:
-        current = current | set(x)
+        current = current | x
 
     return current
 
 D = [{1}, {1, 2}, {1, 2, 3}, {4, 5, 6}, {7, 8}, {9}]
-
-print(myUnion(D))
+print("List D contains many sets such as: " + str(T))
+print("These sets United together form: " + str(myUnion(D)))
+print("The Union of an empty list of sets: " + str(myUnion(E)))

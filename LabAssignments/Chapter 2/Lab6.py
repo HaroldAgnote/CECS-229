@@ -17,6 +17,8 @@ def vec_select(L,s):
 
 	return result
 
+def vec_select_oneline(L,s):
+	return [y for y in L if y.__getitem__(s) == 0]
 
 
 print(vec_select([u,v,w],'x'))
@@ -24,6 +26,13 @@ print("\n\n")
 print(vec_select([u,v,w],'y'))
 print("\n\n")
 print(vec_select([u,v,w],'z'))
+print("\n\n")
+
+print(vec_select_oneline([u,v,w],'x'))
+print("\n\n")
+print(vec_select_oneline([u,v,w],'y'))
+print("\n\n")
+print(vec_select_oneline([u,v,w],'z'))
 print("\n\n")
 
 
@@ -38,7 +47,8 @@ def vec_sum(L, D):
 
 	return result
 
+def vec_sum_oneline(L, D):
+	return sum(L)
 
-v = vec_sum([u,v,w],D)
-
-print(v)
+print(vec_sum([u,v,w],D))
+print(vec_sum_oneline([u,v,w], D))

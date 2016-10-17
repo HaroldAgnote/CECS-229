@@ -1,7 +1,8 @@
 # Copyright 2013 Philip N. Klein
 from vec import Vec
 
-#Test your Mat class over R and also over GF(2).  The following tests use only R.
+
+# Test your Mat class over R and also over GF(2).  The following tests use only R.
 
 def getitem(M, k):
     """
@@ -19,8 +20,8 @@ def getitem(M, k):
         return 0
 
 
-
 def equal(A, B):
+
     """
     Returns true iff A is equal to B.
 
@@ -46,10 +47,11 @@ def equal(A, B):
     assert A.D == B.D
     for x in A.D[0]:
         for y in A.D[1]:
-            if A[x,y] != B[x,y]:
+            if A[x, y] != B[x, y]:
                 return False
 
     return True
+
 
 def setitem(M, k, val):
     """
@@ -70,6 +72,7 @@ def setitem(M, k, val):
     """
     assert k[0] in M.D[0] and k[1] in M.D[1]
     M.f[k] = val
+
 
 def add(A, B):
     """
@@ -97,10 +100,10 @@ def add(A, B):
     True
     """
     assert A.D == B.D
-    result = Mat(A.D, {})
+    result = Mat(A.D, { })
     for x in A.D[0]:
         for y in A.D[1]:
-            result[x,y] = A[x,y] + B[x,y]
+            result[x, y] = A[x, y] + B[x, y]
     return result
 
 
@@ -116,11 +119,12 @@ def scalar_mul(M, x):
     >>> 0.25*M == Mat(({1,3,5}, {2,4}), {(1,2):1.0, (5,4):0.5, (3,4):0.75})
     True
     """
-    result = Mat( M.D, { } )
-    for a in M.D[ 0 ]:
-        for b in M.D[ 1 ]:
-            result[ a, b ] = x * M[a,b]
+    result = Mat(M.D, { })
+    for a in M.D[0]:
+        for b in M.D[1]:
+            result[a, b] = x * M[a, b]
     return result
+
 
 def transpose(M):
     """
@@ -134,12 +138,13 @@ def transpose(M):
     >>> M.transpose() == Mt
     True
     """
-    result = Mat((M.D[1], M.D[0]), {})
+    result = Mat((M.D[1], M.D[0]), { })
     for x in result.D[0]:
         for y in result.D[1]:
-            result[x,y] = M[y,x]
+            result[x, y] = M[y, x]
 
     return result
+
 
 def vector_matrix_mul(v, M):
     """
@@ -166,7 +171,12 @@ def vector_matrix_mul(v, M):
     True
     """
     assert M.D[0] == v.D
-    pass
+    result = Vec(M.D[1], {})
+    for x in v.D:
+        for y in M.D[1]:
+            result[y] += v[x]*M[x,y]
+    return result
+
 
 def matrix_vector_mul(M, v):
     """
@@ -193,7 +203,12 @@ def matrix_vector_mul(M, v):
     True
     """
     assert M.D[1] == v.D
-    pass
+    result = Vec(M.D[0], {})
+    for y in M.D[0]:
+        for x in v.D:
+            result[y] += M[y, x]*v[x]
+    return result
+
 
 def matrix_matrix_mul(A, B):
     """
@@ -222,7 +237,14 @@ def matrix_matrix_mul(A, B):
     True
     """
     assert A.D[1] == B.D[0]
-    pass
+    result = Mat((A.D[0], B.D[1]), {})
+    for x in A.D[0]:
+        for y in B.D[1]:
+            for z in A.D[1]:
+                result[x, y] += A[x, z] * B[z, y]
+    return result
+
+
 
 ################################################################################
 
@@ -239,16 +261,16 @@ class Mat:
     transpose = transpose
 
     def __neg__(self):
-        return (-1)*self
+        return (-1) * self
 
-    def __mul__(self,other):
+    def __mul__(self, other):
         if Mat == type(other):
-            return matrix_matrix_mul(self,other)
+            return matrix_matrix_mul(self, other)
         elif Vec == type(other):
-            return matrix_vector_mul(self,other)
+            return matrix_vector_mul(self, other)
         else:
-            return scalar_mul(self,other)
-            #this will only be used if other is scalar (or not-supported). mat and vec both have __mul__ implemented
+            return scalar_mul(self, other)
+            # this will only be used if other is scalar (or not-supported). mat and vec both have __mul__ implemented
 
     def __rmul__(self, other):
         if Vec == type(other):
@@ -263,26 +285,45 @@ class Mat:
         if other == 0:
             return self
 
-    def __sub__(a,b):
-        return a+(-b)
+    def __sub__(a, b):
+        return a + (-b)
 
     __eq__ = equal
 
     def copy(self):
         return Mat(self.D, self.f.copy())
 
-    def __str__(M, rows=None, cols=None):
+    def __str__(M, rows = None, cols = None):
         "string representation for print()"
-        if rows == None: rows = sorted(M.D[0], key=repr)
-        if cols == None: cols = sorted(M.D[1], key=repr)
+        if rows == None:
+            rows = sorted(M.D[0], key = repr)
+        if cols == None:
+            cols = sorted(M.D[1], key = repr)
         separator = ' | '
         numdec = 3
-        pre = 1+max([len(str(r)) for r in rows])
-        colw = {col:(1+max([len(str(col))] + [len('{0:.{1}G}'.format(M[row,col],numdec)) if isinstance(M[row,col], int) or isinstance(M[row,col], float) else len(str(M[row,col])) for row in rows])) for col in cols}
-        s1 = ' '*(1+ pre + len(separator))
-        s2 = ''.join(['{0:>{1}}'.format(str(c),colw[c]) for c in cols])
-        s3 = ' '*(pre+len(separator)) + '-'*(sum(list(colw.values())) + 1)
-        s4 = ''.join(['{0:>{1}} {2}'.format(str(r), pre,separator)+''.join(['{0:>{1}.{2}G}'.format(M[r,c],colw[c],numdec) if isinstance(M[r,c], int) or isinstance(M[r,c], float) else '{0:>{1}}'.format(M[r,c], colw[c]) for c in cols])+'\n' for r in rows])
+        pre = 1 + max([len(str(r)) for r in rows])
+        colw = { col: (1 + max([len(str(col))] + [
+            len('{0:.{1}G}'.format(M[row, col], numdec)) if isinstance(M[row, col],
+                                                                       int) or isinstance(
+                    M[row, col], float) else len(str(M[row, col])) for row in rows])) for col in
+                 cols }
+        s1 = ' ' * (1 + pre + len(separator))
+        s2 = ''.join(['{0:>{1}}'.format(str(c), colw[c]) for c in cols])
+        s3 = ' ' * (pre + len(separator)) + '-' * (sum(list(colw.values())) + 1)
+        s4 = ''.join(['{0:>{1}} {2}'.format(str(r), pre, separator) + ''.join([
+                                                                                  '{0:>{1}.{2}G}'.format(
+                                                                                          M[r, c],
+                                                                                          colw[c],
+                                                                                          numdec) if isinstance(
+                                                                                          M[r, c],
+                                                                                          int) or isinstance(
+                                                                                          M[r, c],
+                                                                                          float) else '{0:>{1}}'.format(
+                                                                                          M[r, c],
+                                                                                          colw[c])
+                                                                                  for c in
+                                                                                  cols]) + '\n' for
+                      r in rows])
         return '\n' + s1 + s2 + '\n' + s3 + '\n' + s4
 
     def pp(self, rows, cols):
@@ -290,7 +331,7 @@ class Mat:
 
     def __repr__(self):
         "evaluatable representation"
-        return "Mat(" + str(self.D) +", " + str(self.f) + ")"
+        return "Mat(" + str(self.D) + ", " + str(self.f) + ")"
 
     def __iter__(self):
         raise TypeError('%r object is not iterable' % self.__class__.__name__)

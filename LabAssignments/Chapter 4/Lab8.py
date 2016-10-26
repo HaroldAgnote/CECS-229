@@ -76,21 +76,19 @@ print("\nResult:")
 print(scaleMatrix(2,2)*v)
 
 def rotationMatrix(theta):
-    R = {'A','B'}
+    R = {'A','B','C'}
     result = Mat((R,R), {})
-    for x in result.D[0]:
-        for y in result.D[1]:
-            if x == y:
-                result[x,y] = int(cos(theta))
-            elif y > x:
-                result[x,y] = -int(sin(theta))
-            else:
-                result[x,y] = int(sin(theta))
+    result['A', 'A'] = int(cos(theta))
+    result['A', 'B'] = -int(sin(theta))
+    result['B', 'A'] = int(sin(theta))
+    result['B', 'B'] = int(cos(theta))
+    result['C', 'C'] = 1
+
     return result
 
 print("\nRotation Matrix")
 print("Vector v")
-v = Vec({'A', 'B'}, {'A': 2, 'B':4})
+v = Vec({'A', 'B', 'C'}, {'A': 2, 'B':4, 'C':1})
 print(v)
 print("\nRotate by 90 degrees (pi/2)")
 print(rotationMatrix(pi/2))
@@ -98,15 +96,16 @@ print("\nResult:")
 print(rotationMatrix(pi/2)*v)
 
 def y_reflectMatrix():
-    R = {'A', 'B'}
+    R = {'A', 'B', 'C'}
     result = Mat((R,R), {})
     result['A', 'A'] = -1
     result['B', 'B'] = 1
+    result['C', 'C'] = 1
     return result
 
 print("\nReflection")
 print("Vector y")
-y = Vec({'A','B'},{'A': 1, 'B': 1})
+y = Vec({'A','B', 'C'},{'A': 1, 'B': 1, 'C':1})
 print(y)
 print("\nReflection about the y-axis")
 print(y_reflectMatrix())
@@ -114,15 +113,16 @@ print("\nResult")
 print(y_reflectMatrix()*y)
 
 def x_reflectMatrix():
-    R = { 'A', 'B' }
+    R = { 'A', 'B', 'C' }
     result = Mat((R, R), {})
     result['A', 'A'] = 1
     result['B', 'B'] = -1
+    result['C', 'C'] = 1
     return result
 
 print("\nReflection")
 print("Vector x")
-x = Vec({'A','B'},{'A': 1, 'B': 1})
+x = Vec({'A','B', 'C'},{'A': 1, 'B': 1, 'C':1})
 print(x)
 print("\nReflection about the x-axis")
 print(x_reflectMatrix())

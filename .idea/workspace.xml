@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="869976aa-1902-4af4-8997-858b3c774312" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LabAssignments/Chapter 4/Lab9.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabAssignments/Chapter 4/Chapter4Notes.py" afterPath="$PROJECT_DIR$/LabAssignments/Chapter 4/Chapter4Notes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabAssignments/Chapter 4/Homework6.py" afterPath="$PROJECT_DIR$/LabAssignments/Chapter 4/Homework6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabAssignments/Chapter 4/Lab8.py" afterPath="$PROJECT_DIR$/LabAssignments/Chapter 4/Lab8.py" />
     </list>
     <ignored path="CECS-229.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,16 +20,17 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CECS-229$ChapterOneProblems.coverage" NAME="ChapterOneProblems Coverage Results" MODIFIED="1475190212732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeworkAssignments/Homework4" />
-    <SUITE FILE_PATH="coverage/CECS-229$GroupAssignment.coverage" NAME="GroupAssignment Coverage Results" MODIFIED="1477516264563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 4" />
-    <SUITE FILE_PATH="coverage/CECS-229$Homework6.coverage" NAME="Homework6 Coverage Results" MODIFIED="1477534483187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 4" />
+    <SUITE FILE_PATH="coverage/CECS-229$GroupAssignment.coverage" NAME="GroupAssignment Coverage Results" MODIFIED="1477607821207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 4" />
+    <SUITE FILE_PATH="coverage/CECS-229$Homework6.coverage" NAME="Homework6 Coverage Results" MODIFIED="1477591671014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 4" />
     <SUITE FILE_PATH="coverage/CECS-229$Lab4.coverage" NAME="Lab4 Coverage Results" MODIFIED="1475617819117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 1" />
     <SUITE FILE_PATH="coverage/CECS-229$Lab6.coverage" NAME="Lab6 Coverage Results" MODIFIED="1475778787673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 2" />
     <SUITE FILE_PATH="coverage/CECS-229$Homework4.coverage" NAME="Homework4 Coverage Results" MODIFIED="1475794638128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeworkAssignments/Homework4" />
     <SUITE FILE_PATH="coverage/CECS-229$Chapter2Notes.coverage" NAME="Chapter2Notes Coverage Results" MODIFIED="1475616233474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 2" />
     <SUITE FILE_PATH="coverage/CECS-229$LabFourNotes.coverage" NAME="LabFourNotes Coverage Results" MODIFIED="1475181473547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 1" />
+    <SUITE FILE_PATH="coverage/CECS-229$Lab9.coverage" NAME="Lab9 Coverage Results" MODIFIED="1477617377789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 4" />
     <SUITE FILE_PATH="coverage/CECS-229$Lab5.coverage" NAME="Lab5 Coverage Results" MODIFIED="1475611954674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 2" />
-    <SUITE FILE_PATH="coverage/CECS-229$Chapter4Notes.coverage" NAME="Chapter4Notes Coverage Results" MODIFIED="1477446383307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 4" />
-    <SUITE FILE_PATH="coverage/CECS-229$Lab8.coverage" NAME="Lab8 Coverage Results" MODIFIED="1477443587954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 4" />
+    <SUITE FILE_PATH="coverage/CECS-229$Chapter4Notes.coverage" NAME="Chapter4Notes Coverage Results" MODIFIED="1477607803863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 4" />
+    <SUITE FILE_PATH="coverage/CECS-229$Lab8.coverage" NAME="Lab8 Coverage Results" MODIFIED="1477608689047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 4" />
     <SUITE FILE_PATH="coverage/CECS-229$Lab3.coverage" NAME="Lab3 Coverage Results" MODIFIED="1475115805083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 1" />
     <SUITE FILE_PATH="coverage/CECS-229$Lab7.coverage" NAME="Lab7 Coverage Results" MODIFIED="1476839399667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LabAssignments/Chapter 4" />
   </component>
@@ -40,11 +45,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5386681">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="mat.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="mat.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/mat.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4488">
-                  <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+                <state relative-caret-position="352">
+                  <caret line="219" column="79" selection-start-line="219" selection-start-column="79" selection-end-line="219" selection-end-column="79" />
                   <folding />
                 </state>
               </provider>
@@ -75,7 +80,7 @@
           <file leaf-file-name="GroupAssignment.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/GroupAssignment.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="106">
+                <state relative-caret-position="3454">
                   <caret line="158" column="10" selection-start-line="158" selection-start-column="10" selection-end-line="158" selection-end-column="10" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
@@ -84,11 +89,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="matutil.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="matutil.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/matutil.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="420">
+                  <caret line="103" column="37" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -101,8 +106,8 @@
           <file leaf-file-name="vec.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/vec.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1406">
-                  <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+                <state relative-caret-position="172">
+                  <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -121,8 +126,20 @@
           <file leaf-file-name="Lab8.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Lab8.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+                <state relative-caret-position="352">
+                  <caret line="42" column="17" selection-start-line="31" selection-start-column="0" selection-end-line="42" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Lab9.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Lab9.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="299">
+                  <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
                   </folding>
@@ -133,18 +150,20 @@
           <file leaf-file-name="Chapter4Notes.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Chapter4Notes.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-                  <folding />
+                <state relative-caret-position="550">
+                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Homework6.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Homework6.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Homework6.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2530">
-                  <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
+                <state relative-caret-position="1012">
+                  <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
                   </folding>
@@ -155,8 +174,8 @@
           <file leaf-file-name="GroupAssignment.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/GroupAssignment.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-375">
-                  <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+                <state relative-caret-position="374">
+                  <caret line="159" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
                   </folding>
@@ -195,9 +214,10 @@
         <option value="$PROJECT_DIR$/LabAssignments/Chapter 4/Lab7.py" />
         <option value="$PROJECT_DIR$/LabAssignments/Chapter 4/mat.py" />
         <option value="$PROJECT_DIR$/LabAssignments/Chapter 1/Lab4.py" />
-        <option value="$PROJECT_DIR$/LabAssignments/Chapter 4/Lab8.py" />
-        <option value="$PROJECT_DIR$/LabAssignments/Chapter 4/Chapter4Notes.py" />
         <option value="$PROJECT_DIR$/LabAssignments/Chapter 4/Homework6.py" />
+        <option value="$PROJECT_DIR$/LabAssignments/Chapter 4/Chapter4Notes.py" />
+        <option value="$PROJECT_DIR$/LabAssignments/Chapter 4/Lab8.py" />
+        <option value="$PROJECT_DIR$/LabAssignments/Chapter 4/Lab9.py" />
       </list>
     </option>
   </component>
@@ -224,7 +244,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -237,13 +257,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="terminal" />
@@ -271,25 +285,7 @@
       <recent name="D:\Documents\git\CECS-229\LabAssignments\Chapter 2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Homework6">
-    <configuration default="false" name="Homework4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HomeworkAssignments/Homework4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CECS-229" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HomeworkAssignments/Homework4/Homework4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Lab9">
     <configuration default="false" name="Lab7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,6 +354,24 @@
       <module name="CECS-229" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabAssignments/Chapter 4/Chapter4Notes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lab9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LabAssignments/Chapter 4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CECS-229" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabAssignments/Chapter 4/Lab9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -590,19 +604,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.GroupAssignment" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Homework4" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Lab7" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Lab8" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Homework6" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Chapter4Notes" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Lab7" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Lab8" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Homework6" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Chapter4Notes" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Lab9" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Homework6" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Chapter4Notes" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Lab8" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Lab7" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Homework4" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Lab9" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Lab8" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Chapter4Notes" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Homework6" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Lab7" />
       </list>
     </recent_temporary>
   </component>
@@ -640,7 +654,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50396377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -696,13 +710,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 2/Chapter2Notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HomeworkAssignments/Homework3/ChapterOneProblems.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -999,24 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Lab8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Chapter4Notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Lab7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1027,18 +1016,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/vec.py">
+    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/mat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="219" column="79" selection-start-line="219" selection-start-column="79" selection-end-line="219" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/GroupAssignment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="159" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Homework6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -1047,24 +1046,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/matutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="103" column="37" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/mat.py">
+    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Lab8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4488">
-          <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="42" column="17" selection-start-line="31" selection-start-column="0" selection-end-line="42" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Homework6.py">
+    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Chapter4Notes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
+        <state relative-caret-position="550">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabAssignments/Chapter 4/Lab9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

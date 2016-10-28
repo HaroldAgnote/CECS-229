@@ -69,11 +69,11 @@ def scaleMatrix(a, b):
 print("\nScale a Matrix")
 print("Vector v")
 print(v)
-print("\nScale by (a, b) where a = 2, and b = 2")
+print("\nScale by (a, b) where a = 2, and b = 4")
 print(scaleMatrix('a','b'))
-print(scaleMatrix(2,2))
+print(scaleMatrix(2,4))
 print("\nResult:")
-print(scaleMatrix(2,2)*v)
+print(scaleMatrix(2,4)*v)
 
 def rotationMatrix(theta):
     R = {'A','B','C'}

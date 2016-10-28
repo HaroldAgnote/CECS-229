@@ -2,6 +2,15 @@ from vec import Vec
 from mat import Mat
 from matutil import *
 
+# Harold Agnote
+# Harvey Han
+# Ivan Kim
+#
+# Professor Tyler Nguyen
+# CECS 229 - Sec. 01
+# 10/27/2016
+# Homework #6 Problems
+
 # Problem 4.17.13
 
 def lin_comb_mat_vec_mult(M, v):
